@@ -1,55 +1,38 @@
-# Maven target directory
-/target/
-
-# Maven local repository
-/.mvn/
+target/
 !.mvn/wrapper/maven-wrapper.jar
+!**/src/main/**/target/
+!**/src/test/**/target/
 
-# Eclipse project files
-*.classpath
-*.project
-*.settings/
-
-# IntelliJ IDEA project files
-.idea/
-*.iml
+### IntelliJ IDEA ###
+.idea/modules.xml
+.idea/jarRepositories.xml
+.idea/compiler.xml
+.idea/libraries/
 *.iws
+*.iml
+*.ipr
 
-# NetBeans project files
+### Eclipse ###
+.apt_generated
+.classpath
+.factorypath
+.project
+.settings
+.springBeans
+.sts4-cache
+
+### NetBeans ###
 /nbproject/private/
-/build/
 /nbbuild/
 /dist/
 /nbdist/
 /.nb-gradle/
+build/
+!**/src/main/**/build/
+!**/src/test/**/build/
 
-# VS Code project files
+### VS Code ###
 .vscode/
 
-# OS-specific files
+### Mac OS ###
 .DS_Store
-Thumbs.db
-
-# Logs and temporary files
-*.log
-*.tmp
-
-# Test results
-/test-output/
-
-# Application-specific files
-*.class
-*.war
-*.ear
-
-# Ignore dependencies (optional)
-# /dependency-reduced-pom.xml
-
-# Ignore browser driver binaries if you download them manually
-/chromedriver
-/geckodriver
-/edgedriver
-/operadriver
-
-# Ignore coverage reports
-/coverage/
