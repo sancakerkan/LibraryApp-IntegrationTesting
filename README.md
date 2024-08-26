@@ -83,6 +83,7 @@ You can run individual test classes, particularly those testing integration scen
 - `LibraryAppTest`: Tests the integration between `LibraryApp` and `BookRepository`, covering cases like book search, checkout, and submission.
 
 ## Call-Graph
+<img src="https://github.com/sancakerkan/LibraryApp-IntegrationTesting/blob/44e9dbf56d60de05d2bb614f1777a62e93c538b7/.idea/callgraph.png" alt="Call Graph" width="500"/>
 
 ## Contributing
 
