@@ -57,27 +57,17 @@ This repository contains integration tests for the LibraryApp, a Java-based appl
 
 1. **Using IntelliJ IDEA:**
     - Open the project.
-    - Navigate to `src/main/java/LibraryApp.java`.
-    - Right-click `LibraryApp.java` and select `Run 'LibraryApp.main()'`.
+    - Navigate to `src/main/java/Main.java`.
+    - Right-click `Main.java` and select `Run .
 
 2. **Using Eclipse:**
     - Open the project.
-    - Navigate to `src/main/java/LibraryApp.java`.
-    - Right-click `LibraryApp.java` and select `Run As` > `Java Application`.
+    - Navigate to `src/main/java/Main.java`.
+    - Right-click `Main.java` and select `Run As` > `Java Application`.
 
 ## Testing
 
-### Running All Tests
-
-1. **Using IntelliJ IDEA:**
-    - Right-click the `test` directory or the project root.
-    - Select `Run 'All Tests'`.
-
-2. **Using Eclipse:**
-    - Right-click the `src/test/java` directory or the project root.
-    - Select `Run As` > `JUnit Test`.
-
-### Running Individual Test Classes
+### Running Test Class
 
 You can run individual test classes, particularly those testing integration scenarios:
 
